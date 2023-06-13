@@ -8,6 +8,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    background: linear-gradient(to bottom, #292929, #000000);
         nav{
             display: flex;
             justify-content: space-between;
@@ -23,6 +24,7 @@ header{
             a:hover{
                 color: gray;
                 margin: 0% 1%;
+                transform: scale(1.2);
             }
         }
 }

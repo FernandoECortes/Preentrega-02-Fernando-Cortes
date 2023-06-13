@@ -5,6 +5,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    background: linear-gradient(to top, #1d1d1d, #000000);
     a{
         text-decoration: none;
         color: $color-fuente;

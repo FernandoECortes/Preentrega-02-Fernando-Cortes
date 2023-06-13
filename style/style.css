@@ -53,6 +53,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  background: linear-gradient(to top, #1d1d1d, #000000);
 }
 footer a {
   text-decoration: none;
@@ -96,6 +97,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+  background: linear-gradient(to bottom, #292929, #000000);
 }
 header nav {
   display: flex;
@@ -113,6 +115,7 @@ header nav a {
 header nav a:hover {
   color: gray;
   margin: 0% 1%;
+  transform: scale(1.2);
 }
 
 /*Google Fonts*/
@@ -164,6 +167,7 @@ main p {
 
 .parrafoBio {
   color: white;
+  font-style: italic;
 }
 
 /*Google Fonts*/

@@ -7,6 +7,10 @@
     <title>Biografia | Gustavo Cerati</title>
     <!--CSS-->
     <link rel="stylesheet" href="/style/style.css">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--favicon-->
+    <link rel="shortcut icon" href="../img/favico.ico" type="image/x-icon">
 </head>
 <body>
     <!--header start-->
@@ -29,11 +33,11 @@
     <!--div h1 end-->
     <!--section bio start-->
     <section class="sectionBio">
-            <img class="imgBio1" src="/img/bio1.jpg" alt="Gustavo Foto Cara">
-            <img class="imgBio2" src="/img/soda-stereo-1.webp" alt="gustavo En Soda">
-            <img class="imgBio3" src="/img/bio2.jpg" alt="Gustavo De Joven">
-            <p class="parrafoBio">Gustavo Adrián Cerati fue un referente del rock y pop de Argentina, y fue el líder de la legendaria banda Soda Stereo.
-
+            <img class="imgBio1" data-aos="fade-right" data-aos-duration="2000" src="/img/bio1.jpg" alt="Gustavo Foto Cara">
+            <img class="imgBio2" data-aos="fade-right" data-aos-duration="2000" src="/img/soda-stereo-1.webp" alt="gustavo En Soda">
+            <img class="imgBio3" data-aos="fade-right" data-aos-duration="2000" src="/img/bio2.jpg" alt="Gustavo De Joven">
+            <p class="parrafoBio" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            Gustavo Adrián Cerati fue un referente del rock y pop de Argentina, y fue el líder de la legendaria banda Soda Stereo.
             Nació en el barrio Villa Ortúzar de la Ciudad de Buenos Aires el 11 de agosto de 1959. A pesar de haber sido el cantante de Soda Stereo, participó en distintos proyectos, como lo fue el disco “Colores Santos” (1992) junto a Daniel Melero.
             En 1993 edita el disco “Amor Amarillo” que incluye el conocido tema “Te Llevo Para Que Me Lleves”.
             Al disolverse Soda en 1997 se alejó por un tiempo de los escenarios pero regresó en 1999 con su tercer disco solista, titulado “Bocanada”.
@@ -86,5 +90,10 @@
         </a>
     </footer>
     <!--footer end-->
+    <!--script aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
