@@ -1,0 +1,118 @@
+@media only screen and (min-width: 961px){
+    h1{
+        font-size: 200%;
+    }
+    h2{
+        font-size: 200%;
+    }
+    header{
+        nav{
+            a{
+                font-size: 200%;
+            }
+            .imgEnlace{
+                .logoPrincipalHeader{
+                    width: 10rem;
+                    height: auto;
+                }
+            }
+        }
+    }
+    main{
+        p{
+            width: 30rem;
+            position: absolute;
+            top: 25rem;
+            right: 6rem;
+            font-size: 200%;
+        }
+        button{
+            width: 8rem;
+            height: 3rem;
+            position: absolute;
+            top: 35rem;
+            right: 10rem;
+            background-color: white;
+            font-weight: 900;
+            font-size: 1rem;
+        }
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        nav{
+            ul{
+                li{
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 200%;
+                    }
+                }
+            }
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 200%;
+        }
+        .logoPrincipalHeader{
+            width: 10rem;
+            height: auto;
+        }
+    
+    }
+    .sectionBio{
+        padding: 5%;
+        row-gap: 10%;
+        column-gap: 10%;
+        display: grid;
+        grid-template-areas: 
+        'imgBio1 p p'
+        'imgBio2 p p'
+        'imgBio3 p p';
+        .imgBio1{
+            grid-area: imgBio1;
+            width: 100%;
+        }
+        .imgBio2{
+            grid-area: imgBio2;
+            width: 100%;
+        }
+        .imgBio3{
+            grid-area: imgBio3;
+            width: 100%;
+        }
+        .parrafoBio{
+            width: 100%;
+            grid-area: p;
+            font-size: 110%;
+        }
+    
+    }
+    .divSpoti{
+        padding: 5%;
+    }
+    .divConciertos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .divConciertos iframe{
+        align-self: center;
+        justify-self: center;
+    }
+    .sectionImg{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+        row-gap: 1%;
+        column-gap: 1%;
+        padding: 5%;
+        .imgGaleria{
+            width: 100% ;
+            align-self: center;
+            justify-self: center;
+        }
+    }
+    }

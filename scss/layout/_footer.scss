@@ -1,0 +1,35 @@
+@import '../utilities/variables';
+@import '../base/font';
+@import '../base/reset';
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    a{
+        text-decoration: none;
+        color: $color-fuente;
+        font-size: 200%;
+        transition: 1s;
+    }
+    a:hover{
+        color: gray;
+        margin: 0.5%;
+    }
+    nav{
+        ul{
+            li{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: $color-fuente;
+                    font-size: 200%;
+                    transition: 1s;
+                }
+                a:hover{
+                    color: gray;
+                    margin: 5%;
+                }
+            }
+        }
+    }
+}

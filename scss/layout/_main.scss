@@ -1,0 +1,28 @@
+@import '../utilities/variables';
+@import '../base/font';
+@import '../base/reset';
+main{
+    margin-top: 1%;
+    img{
+        width: 100%;
+    }
+    button{
+        position: absolute;
+        top: 70%;
+        right: 10%;
+        background-color: $color-principal;
+        a{
+            text-decoration: none;
+            color: $color-fuente;
+            font-weight: 900;
+        }
+    }
+    p{
+        position: absolute;
+        top: 20rem;
+        right: 2rem;
+        background-color: $color-fuente;
+        font-weight: 900;
+    }
+
+}

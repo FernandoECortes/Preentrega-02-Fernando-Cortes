@@ -1,0 +1,117 @@
+@media only screen and (min-width: 501px) and (max-width: 960px){
+h1{
+    font-size: 80%;
+}
+h2{
+    font-size: 80%;
+}
+header{
+    nav{
+        a{
+            font-size: 100%;
+        }
+        .imgEnlace{
+            .logoPrincipalHeader{
+                width: 8rem;
+                height: auto;
+            }
+        }
+    }
+}
+main{
+    p{
+        width: 10rem;
+        position: absolute;
+        top: 10rem;
+        right: 3rem;
+        font-size: 70%;
+    }
+    button{
+        width: 3rem;
+        position: absolute;
+        top: 15rem;
+        right: 3rem;
+        background-color: white;
+        font-weight: 900;
+        font-size: 0.5rem;
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    nav{
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 100%;
+                }
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 70%;
+    }
+    .logoPrincipalHeader{
+        width: 8rem;
+        height: auto;
+    }
+
+}
+.sectionBio{
+    padding: 5%;
+    row-gap: 10%;
+    column-gap: 10%;
+    display: grid;
+    grid-template-areas: 
+    'imgBio1 imgBio1 p'
+    'imgBio2 imgBio2 p'
+    'imgBio3 imgBio3 p';
+    .imgBio1{
+        grid-area: imgBio1;
+        width: 100%;
+    }
+    .imgBio2{
+        grid-area: imgBio2;
+        width: 100%;
+    }
+    .imgBio3{
+        grid-area: imgBio3;
+        width: 100%;
+    }
+    .parrafoBio{
+        width: 100%;
+        grid-area: p;
+        font-size: 80%;
+    }
+
+}
+.divSpoti{
+    padding: 5%;
+}
+.divConciertos{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.divConciertos iframe{
+    align-self: center;
+    justify-self: center;
+}
+.sectionImg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    row-gap: 1%;
+    column-gap: 1%;
+    padding: 5%;
+    .imgGaleria{
+        width: 100% ;
+        align-self: center;
+        justify-self: center;
+    }
+}
+}

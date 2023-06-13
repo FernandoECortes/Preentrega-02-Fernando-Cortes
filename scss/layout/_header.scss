@@ -1,0 +1,28 @@
+@import '../utilities/variables';
+@import '../base/font';
+@import '../base/reset';
+header{
+    background-color: $color-principal;
+    padding: 2%;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            a{
+                color: $color-fuente;
+                text-decoration: none;
+                font-family: 'montserrat', sans-serif;
+                align-self: center;
+                transition: 1s;
+                font-size: 200%;
+            }
+            a:hover{
+                color: gray;
+                margin: 0% 1%;
+            }
+        }
+}
